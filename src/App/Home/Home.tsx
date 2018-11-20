@@ -1,9 +1,9 @@
 import * as React from 'react';
-import './App.css';
+import './Home.css';
 
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 
-class App extends React.Component {
+export class Home extends React.Component {
   public render() {
     return (
       <div className="App">
@@ -12,11 +12,10 @@ class App extends React.Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
+          Preeti Wadhwani
         </p>
       </div>
     );
   }
 }
 
-export default App;
